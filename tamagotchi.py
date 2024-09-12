@@ -20,14 +20,16 @@ class Tamagotchi:
         sleep(1000)
 
     def play(self):
-        
+        #Add code
+        return
 
     def sleep(self):
-        
+        #Add code
+        return
 
     def display_stats(self):
         # Display stats on the LEDs (hunger, happiness, energy as brightness levels)
-        
+        return
 
     def is_alive(self):
         if self.hunger >= 100 or self.energy <= 0:
@@ -57,5 +59,6 @@ def tamagotchi_game():
             pet.sleep()
         
         # Simulate energy, hunger decreasing over time
-        
+        # Add code
+
 tamagotchi_game()
