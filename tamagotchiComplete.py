@@ -2,7 +2,7 @@ from microbit import *
 import random
 import music
 
-music.play(['c', 'd', 'e', 'c'])
+
 # Tamagotchi class for the Microbit
 class Tamagotchi:
     def __init__(self, name):
