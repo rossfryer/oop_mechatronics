@@ -2,7 +2,6 @@ from microbit import *
 import random
 import music
 
-
 # Tamagotchi class for the Microbit
 class Tamagotchi:
     def __init__(self, name):
@@ -88,8 +87,6 @@ def tamagotchi_game():
         # Simulate hunger and energy decreasing over time
         pet.hunger += 1
         pet.energy -= 1
-        
-    
         
         sleep(1000)
 
